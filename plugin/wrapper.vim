@@ -19,9 +19,9 @@ sys.path.insert(0, python_root_dir)
 from gitshitdone import *
 EOF
 
-function! InsertText()
-    python3 insert_text()
+function! ShowBoards()
+    python3 show_boards()
 endfunction
-command! -nargs=0 InsertText call InsertText()
+command! -nargs=0 ShowBoards call ShowBoards()
 
 let g:plugin_loaded = 1
