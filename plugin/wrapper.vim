@@ -19,9 +19,9 @@ sys.path.insert(0, python_root_dir)
 from gitshitdone import *
 EOF
 
-function! ShowBoards()
-    python3 show_boards()
+function! ToggleBoards()
+    python3 toggle_boards()
 endfunction
-command! -nargs=0 ShowBoards call ShowBoards()
+command! -nargs=0 ToggleBoards call ToggleBoards()
 
 let g:plugin_loaded = 1
