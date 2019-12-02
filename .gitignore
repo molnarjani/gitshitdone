@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 # misc
-.swp
+*.swp
+
